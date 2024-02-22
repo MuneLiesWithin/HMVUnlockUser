@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0; 
 }
+
 footer, header {
     background-color: #eee;
     position: fixed;
@@ -10,6 +11,7 @@ footer, header {
     background-color: #eee;
     z-index: 100;
 }
+
 header {
     border-bottom: 2px solid rgb(7, 81, 146);
     padding: 1.2em 1.4em;
@@ -19,6 +21,7 @@ header {
     align-items: center;
     top: 0;
 }
+
 footer {
     border-top: 2px solid rgb(7, 81, 146);
     font-weight: bold;
@@ -27,6 +30,7 @@ footer {
     padding-top: 1em;
     bottom: 0;
 }
+
 .unlock {
     border: 2px solid rgb(7, 81, 146);
     border-radius: 10px;
@@ -38,6 +42,7 @@ footer {
     flex-direction: column; 
     align-items: center;
 }
+
 button {
     border: none;
     padding: 7px;
@@ -46,6 +51,7 @@ button {
     transition: .5s;
     border-radius: 5px;
 }
+
 button:hover{
     background-color: rgb(150, 22, 22);
     cursor: pointer;
@@ -53,16 +59,19 @@ button:hover{
 button:active{
     color:rgb(143, 65, 65);
 }
+
 .form button {
     margin-top: 7px;
     margin-left: 40px
 }
+
 input {
     border-color: rgb(7, 81, 146);
     border-radius: 5px;
     border-style: solid;
     padding: 2px;
 }
+
 legend {
     margin-left: 3.4em;
     font-weight: bold;
