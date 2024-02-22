@@ -17,12 +17,12 @@
     <div id="message">
         <p></p>
     </div>
-    <fieldset class="main">
+    <fieldset class="unlock">
         <legend>Desbloqueio de Usuários</legend>
         <div class="form">
-            <label for="username">Usuário:</label><br>
-            <input type="text" id="username"><br>
-            <button onclick="unlock()">Desbloquear</button>
+            <label for="usernameUnlock">Usuário:</label><br>
+            <input type="text" id="usernameUnlock" onkeypress="handleKeyPress(event, 'unlockUser')"><br>
+            <button onclick="unlockUser()" id="unlockUser">Desbloquear</button>
         </div>
     </fieldset>
     <footer>
