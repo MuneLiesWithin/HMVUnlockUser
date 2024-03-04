@@ -8,7 +8,7 @@ function unlockUser() {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ username: usernameUnlock }),
+            body: JSON.stringify({ username: usernameUnlock.trim() }),
         })
         .then(res =>   res.json())
         .then(data => {
