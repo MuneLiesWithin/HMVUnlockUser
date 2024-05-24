@@ -20,6 +20,7 @@ header {
     height: 100px;
     align-items: center;
     top: 0;
+    margin-bottom: 1em;
 }
 
 footer {
@@ -34,9 +35,11 @@ footer {
 .unlock {
     border: 2px solid rgb(7, 81, 146);
     border-radius: 10px;
-    width: 300px;
-    height: 250px;
-    margin: 300px auto auto auto;
+    padding: 5em;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     display: flex;  
     justify-content: center;
     flex-direction: column; 
@@ -73,7 +76,7 @@ input {
 }
 
 legend {
-    margin-left: 3.4em;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -82,11 +85,11 @@ legend {
 #message {
     border-radius: 10px;
     position: fixed;
-    top: 200px; 
+    top: 170px; 
     left: 50%;
     transform: translateX(-50%);
     z-index: 1000; 
-    padding: 10px;
+    padding: 5px;
     font-weight: bold;
 }
 

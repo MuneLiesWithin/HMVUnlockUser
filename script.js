@@ -1,9 +1,9 @@
-function unlockUser() {
+﻿function unlockUser() {
     let usernameUnlock = document.getElementById("usernameUnlock").value
     if(usernameUnlock.trim() == ""){
         flashMessage("neutral", "Por favor insira um usuário")
     } else {
-        fetch('https://localhost:44328/api/UnlockUser', {
+        fetch('https://onbase.hmv.org.br/OnBasePowerAPI/api/UnlockUser', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
